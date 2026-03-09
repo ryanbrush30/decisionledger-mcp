@@ -14,7 +14,7 @@
       "args": [
         "-y",
         "mcp-remote",
-        "https://api.decisionworksmodels.com/mcp"
+        "https://api.decisionledgerai.com/mcp"
       ]
     }
   }

@@ -7,7 +7,7 @@ import { dirname, join } from "node:path";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const mcpRemoteBin = join(__dirname, "node_modules", ".bin", "mcp-remote");
 
-const child = spawn(mcpRemoteBin, ["https://api.decisionworksmodels.com/mcp"], {
+const child = spawn(mcpRemoteBin, ["https://api.decisionledgerai.com/mcp"], {
   stdio: "inherit",
 });
 

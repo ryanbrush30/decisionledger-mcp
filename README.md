@@ -1,6 +1,6 @@
 # DecisionLedger MCP Server
 
-An MCP (Model Context Protocol) server that connects Claude to the [DecisionLedger](https://decisionworksmodels.com) decision-modeling platform. Run quantitative models, track decisions through governed lifecycles, manage approvals, and record outcomes — all from natural language.
+An MCP (Model Context Protocol) server that connects Claude to the [DecisionLedger](https://decisionledgerai.com) decision-modeling platform. Run quantitative models, track decisions through governed lifecycles, manage approvals, and record outcomes — all from natural language.
 
 ## Setup
 
@@ -14,7 +14,7 @@ Add to your Claude Desktop config (`claude_desktop_config.json`):
       "args": [
         "-y",
         "mcp-remote",
-        "https://api.decisionworksmodels.com/mcp"
+        "https://api.decisionledgerai.com/mcp"
       ]
     }
   }
