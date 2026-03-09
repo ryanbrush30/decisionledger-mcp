@@ -1,0 +1,21 @@
+{
+  "manifest_version": "0.3",
+  "name": "decisionledger",
+  "version": "1.0.0",
+  "description": "DecisionLedger gives Claude access to a full decision-modeling platform. Run 100+ quantitative models (Monte Carlo, MCDA, risk matrices, cost-benefit, optimization, and more), track decisions through governed lifecycles with approvals and SLA enforcement, record outcomes, explore decision graphs, and detect contradictions — all from natural language.",
+  "author": {
+    "name": "ryanbrush30"
+  },
+  "server": {
+    "type": "node",
+    "entry_point": "index.js",
+    "mcp_config": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://api.decisionworksmodels.com/mcp"
+      ]
+    }
+  }
+}
